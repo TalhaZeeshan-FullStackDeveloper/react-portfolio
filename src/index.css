@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Global Smoothness & Rendering */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Header overlap fix */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow-x: hidden; /* Avoid horizontal scrollbar */
+}
+
+/* Custom Infinite Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+  will-change: transform; /* Performance optimization */
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Multi-Layered Neon Glow */
+.neon-text-purple {
+  text-shadow: 0 0 12px rgba(167, 139, 250, 0.65);
+}
+
+.neon-border-glow {
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.4);
+}
+
+/* Profile Image Orbit Pulse */
+@keyframes profile-orbit {
+  0%, 100% { 
+    border-color: rgba(167, 139, 250, 0.6); 
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.3), inset 0 0 15px rgba(167, 139, 250, 0.2); 
+  }
+  50% { 
+    border-color: rgba(232, 121, 249, 0.9); 
+    box-shadow: 0 0 35px rgba(232, 121, 249, 0.6), inset 0 0 25px rgba(232, 121, 249, 0.3); 
+  }
+}
+
+.animate-profile-glow {
+  animation: profile-orbit 3.5s ease-in-out infinite;
+}
+
+/* Card Complex Multi-Glow Logic */
+.sharp-glow-card {
+  background: #0d091a;
+  border: 1px solid rgba(167, 139, 250, 0.1);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+              border-color 0.4s ease, 
+              box-shadow 0.4s ease;
+  will-change: transform;
+}
+
+.sharp-glow-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(232, 121, 249, 0.6);
+  box-shadow: 0 0 30px rgba(167, 139, 250, 0.25), 0 0 10px rgba(232, 121, 249, 0.15);
+}
+
+/* Smooth Selection Highlight */
+::selection {
+  background: rgba(167, 139, 250, 0.3);
+  color: white;
+}
