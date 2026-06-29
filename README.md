@@ -1,16 +1,140 @@
-# React + Vite
+# ✨ Talha Dev Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, responsive and visually attractive developer portfolio built using React.js and modern frontend technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🌐 Live Portfolio
 
-## React Compiler
+Add your deployed Vercel link here:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[🚀 View Portfolio](PASTE_YOUR_VERCEL_LINK)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 👨‍💻 About Me
+
+Hi, I'm **Talha Zeeshan** — a passionate **Full Stack & Frontend Developer** focused on building responsive, modern and user-friendly web experiences.
+
+I enjoy creating clean UI designs, interactive experiences and scalable web applications using modern technologies.
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Bootstrap 5
+* Tailwind CSS
+
+### Backend
+
+* Laravel
+* PHP
+* MySQL
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Vite
+
+---
+
+# ✨ Features
+
+✔ Modern UI Design
+✔ Responsive Layout
+✔ Smooth Animations
+✔ Attractive Color Combination
+✔ Fast Performance
+✔ Mobile Friendly
+
+---
+
+# 🖼 Portfolio Screenshots
+
+## Home Page
+
+![Home](./screenshots/1.png)
+
+---
+
+## About Section
+
+![About](./screenshots/2.png)
+
+---
+
+## Skills Section
+
+![Skills](./screenshots/3.png)
+
+---
+
+## Projects Section
+
+![Projects](./screenshots/4.png)
+
+---
+
+## Services Section
+
+![Services](./screenshots/5.png)
+
+---
+
+## Contact Section
+
+![Contact](./screenshots/6.png)
+
+---
+
+# ⚙ Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/TalhaZeeshan-FullStackDeveloper/react-portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run project:
+
+```bash
+npm run dev
+```
+
+Build:
+
+```bash
+npm run build
+```
+
+---
+
+# 🔗 Connect With Me
+
+### LinkedIn
+
+https://www.linkedin.com/in/talha-zeeshan-developer-0b7293389
+
+### GitHub
+
+https://github.com/TalhaZeeshan-FullStackDeveloper
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
